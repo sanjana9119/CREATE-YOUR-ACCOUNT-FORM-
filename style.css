@@ -1,0 +1,75 @@
+body{
+    background-image:url('https://media.istockphoto.com/id/478627080/photo/evening-view-of-ama-dablam.jpg?s=612x612&w=0&k=20&c=GLKvtQt1JVoOB4yR2WI86_fYOmG8WObeZP_QV_gFG_0=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-container{
+    margin:auto;
+    width: 25%;
+    color:white;
+    background:linear-gradient(
+        180deg,
+        #ffbb00 0%,
+        #ffa026 25%,
+        #e88744 50%,
+        #ba7051 75%,
+        #755b4b 100%
+    );
+    padding:25px 30px;
+    margin-top: 20px;
+}
+
+.form-title{
+    text-align: center;
+    line-height: 0.4;
+}
+
+.form-field{
+    margin:10px 0px;
+}
+
+.input-group{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+}
+
+.input-group i{
+    color: black;
+    padding:10px;
+}
+
+.input-group input,.input-group select,.input-group textarea{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding:8px;
+    border-radius: 5px;
+}
+
+.form-container a, .login-link a{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.form-checkbox{
+    margin:10px 0px;
+}
+
+.form-field button{
+    width: 100%;
+    padding:10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e88744;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.login-link{
+    text-align: center;
+}
